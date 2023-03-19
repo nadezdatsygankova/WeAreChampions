@@ -1,0 +1,143 @@
+html,
+body {
+  background-color: #1b1924;
+  font-family: 'Josefin Sans', sans-serif;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  margin: 30px auto;
+  gap: 9px;
+}
+
+img {
+  width: 90px;
+  margin: 10px auto;
+  border-radius: 35px;
+}
+textarea,
+input {
+  background: #444059;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #8f8f8f;
+  border-radius: 8px;
+  padding: 12px 19px;
+}
+
+textarea {
+  resize: none;
+}
+.container-input {
+  display: flex;
+  gap: 5px;
+}
+input {
+  flex-grow: 1;
+  width: 45%;
+  text-align: center;
+}
+button {
+  background: #28a9f1;
+  border-radius: 8px;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  text-align: center;
+  color: #04131c;
+  padding: 20px 45px;
+}
+button:hover {
+  background-color: #1f8ac3;
+  cursor: pointer;
+}
+
+p {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.title,
+.text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1b1924;
+}
+
+.endorsement {
+  background: #ffffff;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #1b1924;
+  padding: 15px 20px;
+  margin: 15px auto;
+}
+.endorsement  p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #1b1924;
+  text-align: left;
+}
+
+.like {
+  border-radius: 0;
+  width: 20px;
+  margin: 0;
+}
+
+strong {
+  font-size: 20px;
+}
+
+.likeButton {
+  background-color: #ffffff;
+  border: none;
+  color: #04131c;
+  padding: 0;
+}
+
+.likeButton:hover{
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap:10px
+}
+
+.containerLikeButton{
+  display: flex;
+  justify-content: space-between;
+}
